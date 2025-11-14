@@ -1,0 +1,191 @@
+[
+	{
+		"idLabel": "Singapura",
+		"enLabel": "Singapore",
+		"value": "Singapore",
+		"province": [
+			{
+				"idLabel": "Singapura",
+				"enLabel": "Singapore",
+				"value": "Singapore"
+			}
+		]
+	},
+	{
+		"idLabel": "Indonesia",
+		"enLabel": "Indonesia",
+		"value": "Indonesia",
+		"province": [
+			{
+				"idLabel": "Jakarta",
+				"enLabel": "Jakarta",
+				"value": "Jakarta"
+			},
+			{
+				"idLabel": "Aceh",
+				"enLabel": "Aceh",
+				"value": "Aceh"
+			},
+			{
+				"idLabel": "Pulau Bangka Belitung",
+				"enLabel": "Bangka–Belitung Islands",
+				"value": "Bangka–Belitung Islands"
+			},
+			{
+				"idLabel": "Banten",
+				"enLabel": "Banten",
+				"value": "Banten"
+			},
+			{
+				"idLabel": "Bengkulu",
+				"enLabel": "Bengkulu",
+				"value": "Bengkulu"
+			},
+			{
+				"idLabel": "Gorontalo",
+				"enLabel": "Gorontalo",
+				"value": "Gorontalo"
+			},
+			{
+				"idLabel": "Jambi",
+				"enLabel": "Jambi",
+				"value": "Jambi"
+			},
+			{
+				"idLabel": "Bali",
+				"enLabel": "Bali",
+				"value": "Bali"
+			},
+			{
+				"idLabel": "Yogyakarta",
+				"enLabel": "Yogyakarta",
+				"value": "Yogyakarta"
+			},
+			{
+				"idLabel": "Jawa Barat",
+				"enLabel": "West Java",
+				"value": "West Java"
+			},
+			{
+				"idLabel": "Jawa Tengah",
+				"enLabel": "Central Java",
+				"value": "Central Java"
+			},
+			{
+				"idLabel": "Jawa Timur",
+				"enLabel": "East Java",
+				"value": "East Java"
+			},
+			{
+				"idLabel": "Kalimatan Barat",
+				"enLabel": "West Kalimantan",
+				"value": "West Kalimantan"
+			},
+			{
+				"idLabel": "Kalimatan Selatan",
+				"enLabel": "South Kalimantan",
+				"value": "South Kalimantan"
+			},
+			{
+				"idLabel": "Kalimatan Tengah",
+				"enLabel": "Central Kalimantan",
+				"value": "Central Kalimantan"
+			},
+			{
+				"idLabel": "Kalimatan Timur",
+				"enLabel": "East Kalimantan",
+				"value": "East Kalimantan"
+			},
+			{
+				"idLabel": "Kalimatan Utara",
+				"enLabel": "North Kalimantan",
+				"value": "North Kalimantan"
+			},
+			{
+				"idLabel": "Kepulauan Riau",
+				"enLabel": "Riau Islands",
+				"value": "Riau Islands"
+			},
+			{
+				"idLabel": "Lampung",
+				"enLabel": "Lampung",
+				"value": "Lampung"
+			},
+			{
+				"idLabel": "Maluku",
+				"enLabel": "Maluku",
+				"value": "Maluku"
+			},
+			{
+				"idLabel": "Maluku Utara",
+				"enLabel": "North Maluku",
+				"value": "North Maluku"
+			},
+			{
+				"idLabel": "Sumatra Utara",
+				"enLabel": "North Sumatra",
+				"value": "North Sumatra"
+			},
+			{
+				"idLabel": "Nusa Tenggara Barat (NTB)",
+				"enLabel": "West Nusa Tenggara",
+				"value": "West Nusa Tenggara"
+			},
+			{
+				"idLabel": "Nusa Tenggara Timur (NTT)",
+				"enLabel": "East Nusa Tenggara",
+				"value": "East Nusa Tenggara"
+			},
+			{
+				"idLabel": "Papua",
+				"enLabel": "Papua",
+				"value": "Papua"
+			},
+			{
+				"idLabel": "Papua Barat",
+				"enLabel": "West Papua",
+				"value": "West Papua"
+			},
+			{
+				"idLabel": "Riau",
+				"enLabel": "Riau",
+				"value": "Riau"
+			},
+			{
+				"idLabel": "Sumatra Selatan",
+				"enLabel": "South Sumatra",
+				"value": "South Sumatra"
+			},
+			{
+				"idLabel": "Sulawesi Barat",
+				"enLabel": "West Sulawesi",
+				"value": "West Sulawesi"
+			},
+			{
+				"idLabel": "Sulawesi Selatan",
+				"enLabel": "South Sulawesi",
+				"value": "South Sulawesi"
+			},
+			{
+				"idLabel": "Sulawesi Tengah",
+				"enLabel": "Central Sulawesi",
+				"value": "Central Sulawesi"
+			},
+			{
+				"idLabel": "Sulawesi Tenggara",
+				"enLabel": "Southeast Sulawesi",
+				"value": "Southeast Sulawesi"
+			},
+			{
+				"idLabel": "Sulawesi Utara",
+				"enLabel": "North Sulawesi",
+				"value": "North Sulawesi"
+			},
+			{
+				"idLabel": "Sumatra Barat",
+				"enLabel": "West Sumatra",
+				"value": "West Sumatra"
+			}
+		]
+	}
+]
