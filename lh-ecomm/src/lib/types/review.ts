@@ -1,0 +1,35 @@
+export interface ReviewGoogleData {
+    review_id: string,
+    review_text: string,
+    rating: number,
+    review_datetime_utc: string,
+    review_timestamp: number,
+    review_link: string,
+    review_photos: string | null,
+    review_language: string,
+    like_count: number,
+    author_id: string,
+    author_link: string,
+    author_name: string,
+    author_photo_url: string,
+    author_review_count: number,
+    owner_response_datetime_utc: string,
+    owner_response_timestamp: number,
+    owner_response_text: string,
+    owner_response_language: string,
+    author_reviews_link: string,
+    author_local_guide_level: string | null,
+    service_quality: string | null,
+    hotel_rating_breakdown: string | null,
+    review_form: string | null,
+    review_source: String;
+}
+
+export interface ReviewGoogleFormatted {
+    name: string,
+    relatedTime: string,
+    rating: number,
+    description: string,
+    url: string,
+    createdAt: string,
+}
