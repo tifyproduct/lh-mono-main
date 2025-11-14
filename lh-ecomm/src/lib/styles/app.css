@@ -1,0 +1,256 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	/* COLOR - BRAND */
+	--color-brown-05: #f1efed;
+	--color-brown-1: #e8e4e1;
+	--color-brown-2: #d8d1cc;
+	--color-brown-3: #c9c0b9;
+	--color-brown-4: #bbb0a7;
+	--color-brown-5: #aea196;
+	--color-brown-6: #a19387;
+	--color-brown-7: #958578;
+	--color-brown-8: #8b796b;
+	--color-brown-9: #7f6e5f;
+	--color-brown-10: #756455;
+	--color-brown-05: #F1EFED;
+
+	--color-dark-brown-05: #eae8e7;
+	--color-dark-brown-1: #dbd8d7;
+	--color-dark-brown-2: #c1bdbc;
+	--color-dark-brown-3: #a9a4a2;
+	--color-dark-brown-4: #948d8c;
+	--color-dark-brown-5: #7f7876;
+	--color-dark-brown-6: #6c6663;
+	--color-dark-brown-7: #5b5452;
+	--color-dark-brown-8: #4c4643;
+	--color-dark-brown-9: #3d3836;
+	--color-dark-brown-10: #302b29;
+
+	--color-beige-1: #fff7f0;
+	--color-beige-2: #f6ede3;
+	--color-beige-3: #f6ede3;
+	--color-beige-4: #f0e0d0;
+	--color-beige-5: #e9d6c1;
+	--color-beige-6: #e2ccb3;
+	--color-beige-7: #dbb999;
+	--color-beige-8: #cc9e7f;
+	--color-beige-9: #b78462;
+	--color-beige-10: #ad7957;
+
+	/* COLOR - SEMANTIC */
+	--color-red-1: #e0ada4;
+	--color-red-2: #cc8b7e;
+	--color-red-3: #bc6f60;
+	--color-red-4: #ad5445;
+	--color-red-5: #9f392d;
+	--color-red-6: #911a1c;
+	--color-red-7: #82181a;
+	--color-red-8: #731517;
+	--color-red-9: #651115;
+	--color-red-10: #580c11;
+
+	--color-blue-1: #d6d5dc;
+	--color-blue-2: #b9b8c4;
+	--color-blue-3: #9d9dad;
+	--color-blue-4: #868599;
+	--color-blue-5: #707087;
+	--color-blue-6: #5c5e77;
+	--color-blue-7: #494d68;
+	--color-blue-8: #373f5b;
+	--color-blue-9: #23304f;
+	--color-blue-10: #0e2344;
+
+	--color-green-1: #cad6c8;
+	--color-green-2: #acb8a7;
+	--color-green-3: #939f8b;
+	--color-green-4: #7c8973;
+	--color-green-5: #68755e;
+	--color-green-6: #54634b;
+	--color-green-7: #495740;
+	--color-green-8: #3d4c36;
+	--color-green-9: #32412c;
+	--color-green-10: #283722;
+
+	/* COLOR - BASIC */
+	--color-black-1: #e9ebf0;
+	--color-black-2: #d0d4e0;
+	--color-black-3: #c7cbd7;
+	--color-black-4: #adb0ba;
+	--color-black-5: #858895;
+	--color-black-6: #666975;
+	--color-black-7: #444752;
+	--color-black-8: #33353d;
+	--color-black-9: #24252b;
+	--color-black-10: #17181a;
+
+	--color-white-1: #ffffff;
+	--color-white-2: #f8f9fb;
+
+	--color-green-whatsapp: #20c45c;
+
+	/* ELEVATION */
+	--elevation-narrow: 0px 2px 8px -12px rgba(0, 0, 0, 0.08), 0px 0px 1px 0px rgba(0, 0, 0, 0.12);
+	--elevation-deep: 0px 12px 32px -16px rgba(0, 0, 0, 0.16), 0px 0px 1px 0px rgba(0, 0, 0, 0.16);
+
+	/* SCREEN */
+	--screen-mobile: 800px;
+	--screen-desktop: 1024px;
+
+	/* GUTTER */
+
+	/* Related tailwind class : https://tailwindcss.com/docs/gap */
+	--gutter-4: 4px; /* Equivalent to tailwind class `gap-1` */
+	--gutter-8: 8px; /* Equivalent to tailwind class `gap-2` */
+	--gutter-12: 12px; /* Equivalent to tailwind class `gap-3` */
+	--gutter-16: 16px; /* Equivalent to tailwind class `gap-4` */
+	--gutter-20: 20px; /* Equivalent to tailwind class `gap-5` */
+	--gutter-24: 24px; /* Equivalent to tailwind class `gap-6` */
+	--gutter-28: 28px; /* Equivalent to tailwind class `gap-7` */
+	--gutter-32: 32px; /* Equivalent to tailwind class `gap-8` */
+	--gutter-36: 36px; /* Equivalent to tailwind class `gap-9` */
+	--gutter-40: 40px; /* Equivalent to tailwind class `gap-10` */
+
+	/* FONT */
+	--font-regular-weight: 400;
+	--font-medium-weight: 500;
+	--font-semibold-weight: 600;
+	--font-bold-weight: 700;
+
+	/* FONT DESKTOP */
+	--font-desktop-title-1-size: 56px;
+	--font-desktop-title-1-line-height: 64px;
+	--font-desktop-title-2-size: 48px;
+	--font-desktop-title-2-line-height: 54px;
+	--font-desktop-title-3-size: 38px;
+	--font-desktop-title-3-line-height: 46px;
+
+	--font-desktop-subtitle-1-size: 30px;
+	--font-desktop-subtitle-1-line-height: 38px;
+	--font-desktop-subtitle-2-size: 24px;
+	--font-desktop-subtitle-2-line-height: 32px;
+	--font-desktop-subtitle-3-size: 20px;
+	--font-desktop-subtitle-3-line-height: 28px;
+
+	--font-desktop-body-1-size: 16px;
+	--font-desktop-body-1-line-height: 24px;
+	--font-desktop-body-2-size: 14px;
+	--font-desktop-body-2-line-height: 22px;
+
+	--font-desktop-caption-1-size: 12px;
+	--font-desktop-caption-1-line-height: 20px;
+	--font-desktop-caption-2-size: 11px;
+	--font-desktop-caption-2-line-height: 18px;
+
+	/* FONT MOBILE */
+	--font-mobile-title-1-size: 46px;
+	--font-mobile-title-1-line-height: 54px;
+	--font-mobile-title-2-size: 38px;
+	--font-mobile-title-2-line-height: 46px;
+	--font-mobile-title-3-size: 30px;
+	--font-mobile-title-3-line-height: 38px;
+
+	--font-mobile-subtitle-1-size: 24px;
+	--font-mobile-subtitle-1-line-height: 32px;
+	--font-mobile-subtitle-2-size: 20px;
+	--font-mobile-subtitle-2-line-height: 28px;
+	--font-mobile-subtitle-3-size: 16px;
+	--font-mobile-subtitle-3-line-height: 24px;
+
+	--font-mobile-body-1-size: 14px;
+	--font-mobile-body-1-line-height: 22px;
+	--font-mobile-body-2-size: 12px;
+	--font-mobile-body-2-line-height: 20px;
+
+	--font-mobile-caption-1-size: 11px;
+	--font-mobile-caption-1-line-height: 18px;
+	--font-mobile-caption-2-size: 10px;
+	--font-mobile-caption-2-line-height: 16px;
+
+	--font-title-1-size: var(--font-mobile-title-1-size);
+	--font-title-1-line-height: var(--font-mobile-title-1-line-height);
+	--font-title-2-size: var(--font-mobile-title-2-size);
+	--font-title-2-line-height: var(--font-mobile-title-2-line-height);
+	--font-title-3-size: var(--font-mobile-title-3-size);
+	--font-title-3-line-height: var(--font-mobile-title-3-line-height);
+
+	--font-subtitle-1-size: var(--font-mobile-subtitle-1-size);
+	--font-subtitle-1-line-height: var(--font-mobile-subtitle-1-line-height);
+	--font-subtitle-2-size: var(--font-mobile-subtitle-2-size);
+	--font-subtitle-2-line-height: var(--font-mobile-subtitle-2-line-height);
+	--font-subtitle-3-size: var(--font-mobile-subtitle-3-size);
+	--font-subtitle-3-line-height: var(--font-mobile-subtitle-3-line-height);
+
+	--font-body-1-size: var(--font-mobile-body-1-size);
+	--font-body-1-line-height: var(--font-mobile-body-1-line-height);
+	--font-body-2-size: var(--font-mobile-body-2-size);
+	--font-body-2-line-height: var(--font-mobile-body-2-line-height);
+
+	--font-caption-1-size: var(--font-mobile-caption-1-size);
+	--font-caption-1-line-height: var(--font-mobile-caption-1-line-height);
+	--font-caption-2-size: var(--font-mobile-caption-2-size);
+	--font-caption-2-line-height: var(--font-mobile-caption-2-line-height);
+}
+
+@media screen and (min-width: 768px) {
+	:root {
+		--font-title-1-size: var(--font-desktop-title-1-size);
+		--font-title-1-line-height: var(--font-desktop-title-1-line-height);
+		--font-title-2-size: var(--font-desktop-title-2-size);
+		--font-title-2-line-height: var(--font-desktop-title-2-line-height);
+		--font-title-3-size: var(--font-desktop-title-3-size);
+		--font-title-3-line-height: var(--font-desktop-title-3-line-height);
+
+		--font-subtitle-1-size: var(--font-desktop-subtitle-1-size);
+		--font-subtitle-1-line-height: var(--font-desktop-subtitle-1-line-height);
+		--font-subtitle-2-size: var(--font-desktop-subtitle-2-size);
+		--font-subtitle-2-line-height: var(--font-desktop-subtitle-2-line-height);
+		--font-subtitle-3-size: var(--font-desktop-subtitle-3-size);
+		--font-subtitle-3-line-height: var(--font-desktop-subtitle-3-line-height);
+
+		--font-body-1-size: var(--font-desktop-body-1-size);
+		--font-body-1-line-height: var(--font-desktop-body-1-line-height);
+		--font-body-2-size: var(--font-desktop-body-2-size);
+		--font-body-2-line-height: var(--font-desktop-body-2-line-height);
+
+		--font-caption-1-size: var(--font-desktop-caption-1-size);
+		--font-caption-1-line-height: var(--font-desktop-caption-1-line-height);
+		--font-caption-2-size: var(--font-desktop-caption-2-size);
+		--font-caption-2-line-height: var(--font-desktop-caption-2-line-height);
+	}
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+/* width */
+.custom-scrollbar::-webkit-scrollbar {
+	@apply w-1 h-1;
+}
+
+/* Track */
+.custom-scrollbar::-webkit-scrollbar-track {
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0) calc(50% - 1px),
+		rgba(192, 192, 192, 1) calc(50%),
+		rgba(0, 0, 0, 0) 50%
+	);
+}
+
+/* Handle */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+	@apply bg-brown-6 h-2 rounded-sm;
+}
+
+html { scroll-behavior: smooth; } 
