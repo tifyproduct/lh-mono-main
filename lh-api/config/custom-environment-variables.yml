@@ -1,0 +1,7 @@
+app:
+  port: PORT
+
+db:
+  host: DB_HOST
+  name: DB_NAME
+  synchronize: DB_SYNC

@@ -1,0 +1,13 @@
+app:
+  port: 3000
+
+db:
+  #  host: mongodb+srv://dbadmin:XBmkeDEUmnSZKRPj@headlessdevcluster.9wbyz.mongodb.net?retryWrites=true&w=majority&appName=HeadlessDevCluster
+  host: mongodb://localhost:27017/luxehouze
+  synchronize: true
+
+shopify:
+  storeDomain: https://luxehouze.myshopify.com
+  apiVersion: 2024-07
+  privateAccessToken: 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
+  adminApiAccessToken: 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
