@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: */testing*
+
+Sitemap: https://luxehouze.com/sitemap.xml
